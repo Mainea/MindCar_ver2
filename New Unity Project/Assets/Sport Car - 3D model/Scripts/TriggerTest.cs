@@ -18,7 +18,10 @@ public class TriggerTest : MonoBehaviour {
 		
 			if (col.gameObject.tag == "fence")
 		{
-			transform.Translate(new Vector3(0, 0, -100));
+			if (Input.GetKey(KeyCode.UpArrow))
+				transform.Translate(new Vector3(0, 0, -10));
+			else if (Input.GetKey(KeyCode.DownArrow))
+				transform.Translate(new Vector3(0, 0, 10));
 		}
 		
 
@@ -26,10 +29,13 @@ public class TriggerTest : MonoBehaviour {
 
 	void OnCollisionStay(Collision col)
 	{
-
+		
 			if (col.gameObject.tag == "fence")
 		{
-			transform.Translate(new Vector3(0, 0, -100));
+			if (Input.GetKey(KeyCode.UpArrow))
+				transform.Translate(new Vector3(0, 0, -10));
+			else if(Input.GetKey(KeyCode.DownArrow))
+				transform.Translate(new Vector3(0, 0, 10));
 		}
 
 	}
@@ -38,7 +44,10 @@ public class TriggerTest : MonoBehaviour {
 	{
 		if (col.gameObject.tag == "fence")
 		{
-			transform.Translate(new Vector3(0, 0, -100));
+			if (Input.GetKey(KeyCode.UpArrow))
+				transform.Translate(new Vector3(0, 0, -10));
+			else if (Input.GetKey(KeyCode.DownArrow))
+				transform.Translate(new Vector3(0, 0, 10));
 		}
 	}
 }
