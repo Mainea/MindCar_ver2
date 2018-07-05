@@ -56,6 +56,8 @@
      <Compile Include="Assets\Scripts\MainController.cs" />
      <Compile Include="Assets\Sport Car - 3D model\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Sport Car - 3D model\Scripts\LightEffects.cs" />
+     <Compile Include="Assets\Sport Car - 3D model\Scripts\SportCar_1_Controller.cs" />
+     <Compile Include="Assets\Sport Car - 3D model\Scripts\TriggerTest.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\ChanContrl.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />

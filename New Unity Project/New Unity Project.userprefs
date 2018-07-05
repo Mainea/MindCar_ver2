@@ -1,7 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UnityChan/Scripts/ChanContrl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Sport Car - 3D model/Scripts/TriggerTest.cs">
     <Files>
-      <File FileName="Assets/UnityChan/Scripts/ChanContrl.cs" Line="15" Column="22" />
+      <File FileName="Assets/Sport Car - 3D model/Scripts/MainController.cs" Line="14" Column="3" />
+      <File FileName="Assets/Sport Car - 3D model/Scripts/SportCar_1_Controller.cs" Line="24" Column="3" />
+      <File FileName="Assets/Sport Car - 3D model/Scripts/TriggerTest.cs" Line="14" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
