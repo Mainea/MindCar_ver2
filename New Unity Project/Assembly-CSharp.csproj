@@ -95,6 +95,7 @@
      <Compile Include="Assets\miniMap-TurzoStudio\Scripts\GUIManager.cs" />
      <Compile Include="Assets\miniMap-TurzoStudio\Scripts\miniCameraScript.cs" />
      <Compile Include="Assets\miniMap-TurzoStudio\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Countdown.cs" />
      <Compile Include="Assets\Scripts\HalfPointTrigger.cs" />
      <Compile Include="Assets\Scripts\LapCompleteTrigger.cs" />
      <Compile Include="Assets\Scripts\LapTimeManager.cs" />
