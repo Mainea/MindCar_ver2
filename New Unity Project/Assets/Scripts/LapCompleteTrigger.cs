@@ -27,14 +27,14 @@ public class LapCompleteTrigger : MonoBehaviour {
 
 		if (LapTimeManager.MinuteCount <= 9)
 		{
-			MinuteDisplay.GetComponent<Text>().text = "0" + LapTimeManager.MinuteCount + ".";
+			MinuteDisplay.GetComponent<Text>().text = "0" + LapTimeManager.MinuteCount + ":";
 		}
 		else
 		{
-			MinuteDisplay.GetComponent<Text>().text = "" + LapTimeManager.MinuteCount + ".";
+			MinuteDisplay.GetComponent<Text>().text = "" + LapTimeManager.MinuteCount + ":";
 		}
 
-		MilliDisplay.GetComponent<Text>().text = "" + LapTimeManager.MilliCount;
+		MilliDisplay.GetComponent<Text>().text = "" + LapTimeManager.MilliDisplay;
 
 		LapTimeManager.MinuteCount = 0;
 		LapTimeManager.SecondCount = 0;
