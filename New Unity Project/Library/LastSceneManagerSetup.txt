@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/competition.unity
+- path: Assets/Scenes/defualt.unity
   isLoaded: 1
   isActive: 1

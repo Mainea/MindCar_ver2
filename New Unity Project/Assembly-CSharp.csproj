@@ -73,6 +73,7 @@
      <Compile Include="Assets\Scripts\indivisual_code\LapTimeManager.cs" />
      <Compile Include="Assets\Scripts\indivisual_code\LightEffects.cs" />
      <Compile Include="Assets\Scripts\indivisual_code\MainController.cs" />
+     <Compile Include="Assets\Scripts\indivisual_code\MarkerController.cs" />
      <Compile Include="Assets\Scripts\indivisual_code\SportCar_1_Controller.cs" />
      <Compile Include="Assets\Scripts\indivisual_code\TriggerTest.cs" />
      <Compile Include="Assets\Scripts\indivisual_code\TurncountTrigger.cs" />

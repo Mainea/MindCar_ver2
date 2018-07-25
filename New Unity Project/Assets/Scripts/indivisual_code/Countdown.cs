@@ -10,7 +10,7 @@ public class Countdown : MonoBehaviour {
 	public AudioSource GoAudio;
 	public GameObject LapTimer;
 	public GameObject CarControls;
-
+	public GameObject Minimap;
 	void Start()
 	{
 		StartCoroutine(CountStart());
@@ -44,6 +44,7 @@ public class Countdown : MonoBehaviour {
 		CountDown.GetComponent<Text>().text = "Go";
 		GoAudio.Play();
 		LapTimer.SetActive(true);
+		Minimap.SetActive(true);
 
 		CarControls.SetActive(true);
 	}
