@@ -5,13 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/competition.unity
-    guid: 8a62492bbdf704cb6b04e043fad13c74
-  - enabled: 0
-    path: Assets/Scenes/defualt.unity
+    path: Assets/Scenes/0_StartView.unity
+    guid: 90edb9672990d43458c979278c27e73e
+  - enabled: 1
+    path: Assets/Scenes/1_Mode.unity
+    guid: 5c36f3393dda44d8b82ed7a9b4528f0f
+  - enabled: 1
+    path: Assets/Scenes/2_1_Individual.unity
+    guid: d043f9180a33445ff9a48de9c028fa0f
+  - enabled: 1
+    path: Assets/Scenes/2_2_Competition.unity
+    guid: 0bfc9c272d70940939936fe47f6aa636
+  - enabled: 1
+    path: Assets/Scenes/default.unity
     guid: 3f24be72c50bb447eb15e7165b442d8d
   m_configObjects: {}

@@ -14,6 +14,10 @@ public class LapCompleteTrigger : MonoBehaviour {
 
 	public GameObject LapTimeBox;
 
+	public GameObject FinishText;
+	// public GameObject MilliDisplay;
+	// public GameObject MilliDisplay;
+
 	void OnTriggerEnter()
 	{
 		if (LapTimeManager.SecondCount <= 9)
@@ -42,6 +46,12 @@ public class LapCompleteTrigger : MonoBehaviour {
 
 		HalfLapTrig.SetActive(true);
 		LapCompleteTrig.SetActive(false);
+
+		System.Threading.Thread.Sleep(1000);
+
+		FinishText.GetComponent<Text>().text = "FINISH";
+		FinishText.SetActive(true);
+
 
 	}
 
