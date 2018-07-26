@@ -54,18 +54,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Fonts\Script\scriptTexttest.cs" />
-     <Compile Include="Assets\Scripts\Competition_code\CameraScript_com.cs" />
-     <Compile Include="Assets\Scripts\Competition_code\Countdown_com.cs" />
-     <Compile Include="Assets\Scripts\Competition_code\HalfPointTrigger_com.cs" />
-     <Compile Include="Assets\Scripts\Competition_code\LapCompleteTrigger_com.cs" />
-     <Compile Include="Assets\Scripts\Competition_code\LapTimeManager_com.cs" />
-     <Compile Include="Assets\Scripts\Competition_code\LightEffects_com.cs" />
-     <Compile Include="Assets\Scripts\Competition_code\MainController_com.cs" />
-     <Compile Include="Assets\Scripts\Competition_code\PlayerCamera_com.cs" />
-     <Compile Include="Assets\Scripts\Competition_code\SportCar_1_Controller_com.cs" />
-     <Compile Include="Assets\Scripts\Competition_code\TriggerTest_com.cs" />
-     <Compile Include="Assets\Scripts\Competition_code\TurncountTrigger_com.cs" />
-     <Compile Include="Assets\Scripts\Competition_code\TurnManager_com.cs" />
      <Compile Include="Assets\Scripts\indivisual_code\CameraScript.cs" />
      <Compile Include="Assets\Scripts\indivisual_code\Countdown.cs" />
      <Compile Include="Assets\Scripts\indivisual_code\HalfPointTrigger.cs" />
@@ -78,6 +66,7 @@
      <Compile Include="Assets\Scripts\indivisual_code\TriggerTest.cs" />
      <Compile Include="Assets\Scripts\indivisual_code\TurncountTrigger.cs" />
      <Compile Include="Assets\Scripts\indivisual_code\TurnManager.cs" />
+     <Compile Include="Assets\Scripts\MoveScene.cs" />
      <None Include="Assets\UK Terraced Houses FREE\Readme.txt" />
      <None Include="Assets\Fonts\Documentation\JazzCreateBubble_VersionHistory_1.1.txt" />
      <None Include="Assets\readme.txt" />

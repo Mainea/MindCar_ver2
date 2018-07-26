@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/defualt.unity
-=======
-- path: Assets/Scenes/0_StartView.unity
->>>>>>> 8de7d328a43f34c45028b18cafc10b94079a279a
+- path: Assets/Scenes/default.unity
   isLoaded: 1
   isActive: 1
