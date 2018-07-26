@@ -44,7 +44,7 @@ public class Countdown : MonoBehaviour {
 		CountDown.GetComponent<Text>().text = "Go";
 		GoAudio.Play();
 		LapTimer.SetActive(true);
-		Minimap.SetActive(true);
+		//Minimap.SetActive(true);
 
 		CarControls.SetActive(true);
 	}
