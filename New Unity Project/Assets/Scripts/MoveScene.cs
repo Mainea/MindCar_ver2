@@ -35,7 +35,7 @@ public class MoveScene : MonoBehaviour
 
     public void ChangeGameScene_2_2()
     {
-        SceneManager.LoadScene("2_1_Competition");
+        SceneManager.LoadScene("2_2_Competition");
     }
 
     public void ChangeGameScene_3_1()
