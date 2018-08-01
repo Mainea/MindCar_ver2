@@ -18158,7 +18158,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 797164324}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c56cc85d2d36a44f998dff6b492b0ce0, type: 3}
+  m_Script: {fileID: 11500000, guid: 4642082e0d6e4429786452f437826a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   LapCompleteTrig: {fileID: 797164324}
@@ -18676,7 +18676,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 834468645}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f4f57903b5664d8b862ce5d418c5005, type: 3}
+  m_Script: {fileID: 11500000, guid: 2d6d96590f77640a385104fb1e1bb910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CarControl: {fileID: 1062402222}
@@ -21764,7 +21764,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 977052414}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7dfe2cf9deac149f991998c62a91c9e0, type: 3}
+  m_Script: {fileID: 11500000, guid: efbb35846b24f473ab56549e3535221b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MinuteBox: {fileID: 1940097292}
@@ -23495,7 +23495,7 @@ GameObject:
   m_PrefabParentObject: {fileID: 1536997390485366, guid: f8b49f9d229541d43b30476c740c2477,
     type: 2}
   m_PrefabInternal: {fileID: 1323763433}
---- !u!114 &1062402225
+--- !u!114 &1062402223
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -23503,7 +23503,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1062402222}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0938150f851e04acbab0cbf57a9f70be, type: 3}
+  m_Script: {fileID: 11500000, guid: e05a6e505771845c6baf5895afefa177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Marker: {fileID: 1633114434}
@@ -35707,7 +35707,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1682327725}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c2fa1e304a924e38b0b400b30b860f7, type: 3}
+  m_Script: {fileID: 11500000, guid: 50804ac006c4f4743ac7dcccd6cd661b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TurnBox: {fileID: 1367108665}
@@ -38320,11 +38320,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1812830067}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 225891c8acd004399b823044f53e9ce9, type: 3}
+  m_Script: {fileID: 11500000, guid: 1ea8a5aff0f114b9486e9eb156f6f332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   HalfLapTrig: {fileID: 1964884678}
   TurncountTrig: {fileID: 1812830067}
+  FinishText: {fileID: 0}
 --- !u!65 &1812830069
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41728,11 +41729,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1964884678}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4a05fd70d1964df6b0bb3f68005f031, type: 3}
+  m_Script: {fileID: 11500000, guid: 700cd31ca5b484e249bd6f73d99ae2e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   LapCompleteTrig: {fileID: 797164324}
-  HalfLapTrig: {fileID: 1964884678}
+  HalfLapTrig: {fileID: 797164324}
   TurncountTrig: {fileID: 1812830067}
 --- !u!1 &1968524495
 GameObject:
@@ -42009,7 +42010,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1973773182}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 058167b22fe4641a28d85435f25d2e92, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b08b41ab9e91423eb29c37d6f141d31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CountDown: {fileID: 1411958195}

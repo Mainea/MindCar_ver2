@@ -54,6 +54,24 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Fonts\Script\scriptTexttest.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\CameraScript_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\Countdown_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\HalfPointTrigger_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\HalfPointTrigger2_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\LapCompleteTrigger_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\LapCompleteTrigger2_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\LapTimeManager_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\LapTimeManager2_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\LightEffects_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\MainController_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\MarkerController_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\SportCar_1_Controller_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\SportCar_2_Controller_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\TriggerTest_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\TurncountTrigger_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\TurncountTrigger2_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\TurnManager_com.cs" />
+     <Compile Include="Assets\Scripts\Competition_code\TurnManager2_com.cs" />
      <Compile Include="Assets\Scripts\indivisual_code\CameraScript.cs" />
      <Compile Include="Assets\Scripts\indivisual_code\Countdown.cs" />
      <Compile Include="Assets\Scripts\indivisual_code\HalfPointTrigger.cs" />
@@ -77,10 +95,10 @@
      <None Include="Assets\Fonts\Documentation\JazzCreateAltKeys_BubbleFont.txt" />
      <None Include="Assets\Ornamental Flower Set\Shaders\Transparent-BumpSpecNoCull.shader" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>/Users/sooyongs/Desktop/GibHUB/MindCar_ver2/New Unity Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>/Users/sooyongs/Desktop/New Unity Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>/Users/sooyongs/Desktop/GibHUB/MindCar_ver2/New Unity Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>/Users/sooyongs/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
