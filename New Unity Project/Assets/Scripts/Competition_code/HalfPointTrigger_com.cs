@@ -17,7 +17,7 @@ public class HalfPointTrigger_com : MonoBehaviour {
 			TurncountTrig.SetActive(true);
 
 			HalfLapTrig.SetActive(false);
-			if (TurnManager.Turncount == 2)
+			if (TurnManager_com.Turncount == 2)
 			{
 
 				LapCompleteTrig.SetActive(true);
