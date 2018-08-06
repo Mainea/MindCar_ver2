@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/competition.unity
+- path: Assets/Scenes/default.unity
   isLoaded: 1
   isActive: 1

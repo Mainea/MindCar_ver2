@@ -15,8 +15,9 @@ public class LapCompleteTrigger : MonoBehaviour {
 	public GameObject LapTimeBox;
 
 	public GameObject FinishText;
-	// public GameObject MilliDisplay;
-	// public GameObject MilliDisplay;
+	public GameObject CarControls;
+	public Image FinishCanvas;
+
 
 	void OnTriggerEnter()
 	{
@@ -50,7 +51,8 @@ public class LapCompleteTrigger : MonoBehaviour {
 
 		FinishText.GetComponent<Text>().text = "FINISH";
 		FinishText.SetActive(true);
-
+		CarControls.SetActive(false);
+		FinishCanvas.GetComponent<Image>().enabled = true;
 
 	}
 
